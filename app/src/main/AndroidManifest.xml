@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.avengers">
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/avenb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/avenb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CaptainMarvel" />
+        <activity android:name=".SpiderMan" />
+        <activity android:name=".DrStrange" />
+        <activity android:name=".Vision" />
+        <activity android:name=".ScarlettWitch" />
+        <activity android:name=".HawkEye" />
+        <activity android:name=".Hulk" />
+        <activity android:name=".Thor" />
+        <activity android:name=".CaptainAmerica" />
+        <activity android:name=".IronMan" />
+        <activity android:name=".Superheroes" />
+        <activity android:name=".BlackWidow" />
+        <activity android:name=".BlackPanther" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

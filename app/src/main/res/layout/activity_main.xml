@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="430dp"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/avengers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#673AB7"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@drawable/qwe" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="279dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:srcCompat="@drawable/avengers" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="318dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="15dp"
+        android:background="#B5FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="@string/the_avengers_is_a_2012_american_superhero_film_based_on_the_marvel_comics_superhero_team_of_the_same_name_produced_by_marvel_studios_and_distributed_by_walt_disney_studios_motion_pictures_it_is_the_sixth_film_in_the_marvel_cinematic_universe_mcu_written_and_directed_by_joss_whedon_the_film_features_an_ensemble_cast_including_robert_downey_jr_chris_evans_mark_ruffalo_chris_hemsworth_scarlett_johansson_and_jeremy_renner_as_the_avengers_alongside_tom_hiddleston_clark_gregg_cobie_smulders_stellan_skarsg_rd_and_samuel_l_jackson_in_the_film_nick_fury_and_the_spy_agency_s_h_i_e_l_d_recruit_tony_stark_steve_rogers_bruce_banner_and_thor_to_form_a_team_capable_of_stopping_thor_s_brother_loki_from_subjugating_earth"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+
+    <Button
+        android:id="@+id/superheroes"
+        android:layout_width="335dp"
+        android:layout_height="49dp"
+        android:background="#FFFFFF"
+        android:text="@string/superheroes"
+        android:textColor="#009688"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#00FFFFFF"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

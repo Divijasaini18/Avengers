@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaptainMarvel">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/captain_marvel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#673AB7"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/qwe" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine5"
+        android:layout_width="341dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="13dp"
+        android:background="#B5FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="@string/in_1995_danvers_becomes_captain_marvel_after_earth_is_caught_in_the_center_of_a_galactic_conflict_between_two_alien_civilizations_amidst_a_mission_vers_a_kree_warrior_gets_separated_from_her_team_and_is_stranded_on_earth_however_her_life_takes_an_unusual_turn_after_she_teams_up_with_fury_a_s_h_i_e_l_d_agent"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="246dp"
+        android:layout_height="271dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11"
+        app:srcCompat="@drawable/captainmarvel" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

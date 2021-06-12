@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrStrange" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/n1">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="@string/dr_strange"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#673AB7"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textStyle="normal|bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/qwe" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="203dp"
+            android:layout_height="199dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/drstrange" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine6"
+            android:layout_width="345dp"
+            android:layout_height="707dp"
+            android:background="#B5FFFFFF"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="@string/stephen_vincent_strange_m_d_ph_d_is_a_powerful_sorcerer_and_master_of_the_mystic_arts_originally_a_brilliant_although_arrogant_neurosurgeon_strange_got_into_a_car_accident_which_resulted_with_his_hands_becoming_crippled_when_all_western_medicine_failed_him_strange_embarked_on_a_journey_that_led_him_into_kamar_taj_where_strange_had_made_the_discovery_of_magic_and_alternate_dimensions_being_trained_by_the_ancient_one_though_focused_on_healing_his_hands_and_returning_into_his_career_strange_learned_more_of_the_mystic_arts_and_helped_the_masters_prevent_kaecilius_from_merging_the_earth_with_the_dark_dimension_but_not_before_witnessing_the_ancient_one_s_death_following_the_demise_of_their_mentor_strange_became_the_protector_of_the_new_york_sanctum_in_new_york_as_well_as_the_earth_s_protector_from_any_new_inter_dimensional_threats"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+            android:textStyle="normal|bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

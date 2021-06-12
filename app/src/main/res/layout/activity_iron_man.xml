@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".IronMan">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/iron_man"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#673AB7"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/qwe" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="186dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/ironman" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine9"
+        android:layout_width="337dp"
+        android:layout_height="641dp"
+        android:layout_marginTop="16dp"
+        android:background="#B5FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:scrollbars="vertical"
+        android:text="@string/iron_man_is_a_fictional_superhero_appearing_in_american_comic_books_published_by_marvel_comics_the_character_was_co_created_by_writer_and_editor_stan_lee_developed_by_scripter_larry_lieber_and_designed_by_artists_don_heck_and_jack_kirby_the_character_made_his_first_appearance_in_tales_of_suspense_and_received_his_own_title_in_iron_man_also_in_1963_the_character_founded_the_avengers_a_wealthy_american_business_magnate_playboy_philanthropist_inventor_and_ingenious_scientist_anthony_edward_tony_stark_suffers_a_severe_chest_injury_during_a_kidnapping_when_his_captors_attempt_to_force_him_to_build_a_weapon_of_mass_destruction_he_instead_creates_a_mechanized_suit_of_armor_to_save_his_life_and_escape_captivity_later_stark_develops_his_suit_adding_weapons_and_other_technological_devices_he_designed_through_his_company_stark_industries_he_uses_the_suit_and_successive_versions_to_protect_the_world_as_iron_man_although_at_first_concealing_his_true_identity_stark_eventually_publicly_reveals_himself_to_be_iron_man"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

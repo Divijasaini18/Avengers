@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpiderMan">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/spider_man"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#673AB7"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/qwe" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:srcCompat="@drawable/spiderman" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine11"
+        android:layout_width="341dp"
+        android:layout_height="744dp"
+        android:layout_marginTop="2dp"
+        android:background="#B5FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="@string/based_on_marvel_comics_superhero_character_this_is_a_story_of_peter_parker_who_is_a_nerdy_high_schooler_he_was_orphaned_as_a_child_bullied_by_jocks_and_can_t_confess_his_crush_for_his_stunning_neighborhood_girl_mary_jane_watson_to_say_his_life_is_quot_miserable_quot_is_an_understatement_but_one_day_while_on_an_excursion_to_a_laboratory_a_runaway_radioactive_spider_bites_him_and_his_life_changes_in_a_way_no_one_could_have_imagined_peter_acquires_a_muscle_bound_physique_clear_vision_ability_to_cling_to_surfaces_and_crawl_over_walls_shooting_webs_from_his_wrist_but_the_fun_isn_t_going_to_last_an_eccentric_millionaire_norman_osborn_administers_a_performance_enhancing_drug_on_himself_and_his_maniacal_alter_ego_green_goblin_emerges_now_peter_parker_has_to_become_spider_man_and_take_green_goblin_to_the_task_or_else_goblin_will_kill_him_they_come_face_to_face_and_the_war_begins_in_which_only_one_of_them_will_survive_at_the_end"
+        android:textColor="#4CAF50"
+        android:textSize="17sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

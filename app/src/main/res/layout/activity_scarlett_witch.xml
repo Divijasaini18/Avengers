@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScarlettWitch">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:text="SCARLETT WITCH"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#673AB7"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/qwe" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="163dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+        app:srcCompat="@drawable/scarlettwitch" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine10"
+        android:layout_width="337dp"
+        android:layout_height="734dp"
+        android:background="#B5FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="@string/wanda_maximoff_is_a_native_of_sokovia_who_grew_up_with_her_fraternal_twin_brother_pietro_in_an_effort_to_help_purge_their_country_of_strife_the_twins_joined_hydra_and_agreed_to_undergo_experiments_with_the_scepter_under_the_supervision_of_wolfgang_von_strucker_the_two_received_superpowers_as_a_result_with_wanda_attaining_various_abilities_including_telekinesis_telepathy_and_reality_manipulation_when_hydra_fell_the_twins_joined_ultron_to_get_their_revenge_on_tony_stark_over_his_weapons_killing_their_family_in_a_bombing_but_eventually_abandoned_him_when_they_discovered_ultron_s_true_intentions_to_destroy_earth_wanda_and_pietro_fought_with_the_avengers_during_the_battle_of_sokovia_to_stop_ultron_pietro_was_killed_during_the_battle_but_wanda_survived_and_shortly_after_ultron_s_destruction_became_a_member_of_the_avengers"
+        android:textColor="#4CAF50"
+        android:textSize="17sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

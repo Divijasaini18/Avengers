@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaptainAmerica">
+
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/captain_america"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#673AB7"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="42sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/qwe" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="339dp"
+        android:layout_height="435dp"
+        android:background="#B5FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:scrollbars="horizontal|vertical"
+        android:text="@string/it_is_1942_america_has_entered_world_war_ii_and_sickly_but_determined_steve_rogers_is_frustrated_at_being_rejected_yet_again_for_military_service_everything_changes_when_dr_erskine_recruits_him_for_the_secret_project_rebirth_proving_his_extraordinary_courage_wits_and_conscience_rogers_undergoes_the_experiment_and_his_weak_body_is_suddenly_enhanced_into_the_maximum_human_potential_when_dr_erskine_is_then_immediately_assassinated_by_an_agent_of_nazi_germany_s_secret_hydra_research_department_rogers_is_left_as_a_unique_man_who_is_initially_misused_as_a_propaganda_mascot_however_when_his_comrades_need_him_rogers_goes_on_a_successful_adventure_that_truly_makes_him_captain_america_and_his_war_against_schmidt_begins"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:srcCompat="@drawable/captainamerica" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
